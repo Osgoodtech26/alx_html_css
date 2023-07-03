@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    color: blue;
+    background-color: gray;
 }
 
 main{
@@ -12,9 +14,14 @@ main{
 aside{
     flex: 1;
     overflow-y: auto;
+     border: 2px;
+
 }
 
 article{
     flex: 2;
     overflow-y: auto;
+    font-size:large;
+    
+    
 }
